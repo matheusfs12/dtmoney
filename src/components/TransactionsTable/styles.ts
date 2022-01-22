@@ -26,10 +26,6 @@ export const Container = styled.div`
 				color: var(--text-title);
 			}
 
-			&.value {
-				text-align: right;
-			}
-
 			&.deposit {
 				color: var(--green);
 			}
@@ -37,6 +33,10 @@ export const Container = styled.div`
 			&.withdraw {
 				color: var(--red);
 			}
+		}
+
+		.column-value {
+			text-align: right;
 		}
 	}
 `
